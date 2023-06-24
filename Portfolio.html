@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link rel="stylesheet" href="Portfolio.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class="bx bx-menu" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Skill</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- home section design -->
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I'm</h3>
+            <h1>Rizwan Abdullah</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3> 
+            <p>"
+                Welcome to my portfolio! I'm Rizwan Abdullah, a Computer Science student at Air University Islamabad. I am passionate about my work and have gained valuable experience in Frontend Development and Mobile App Development (using JAVA). Throughout my career, I have worked on numerous projects and have consistently honed my skills in web development. In this portfolio, you'll find a showcase of my work, skills, and accomplishments. I'm thrilled to share my journey with you and demonstrate how I can contribute to your next project or opportunity.."</p>
+            <div class="social-media">
+                <a href="https://www.instagram.com/rizwan_abdullah11/"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.linkedin.com/in/rizwan-abdullah-804208232a/"><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <a href="https://novoresume.com/editor/resume/afff4360-2035-11ec-a2b3-0bc27e8c6446/" class="btn">Visit Resume</a>
+        </div>
+        <div class="home-image">
+            <img src="Rizwan.jpg" alt="hero" height="400px" width="300px">
+        </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        
+        <div class="about-content">
+            <h2 class="heading">About<span>Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>I am a Computer Science student with a strong passion for my field. I believe in continuous learning and staying up-to-date with the latest trends and technologies in Computer Science. I am skilled in Mobile application development and Frontend Web Development, and I constantly strive to improve my skills to deliver outstanding results for my clients or employers. I am known for my strong work ethic, problem-solving skills, and ability to work independently or as part of a team. I thrive in challenging environments and enjoy taking on new projects that allow me to push my boundaries and exceed expectations. I am passionate about what I do and take pride in delivering high-quality work that meets or exceeds client expectations. I am always looking for new opportunities to contribute my skills and expertise to help clients achieve their goals. Thank you for visiting my portfolio, and I look forward to connecting with you to discuss how I can add value to your next project or initiative."</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- services section design -->
+    <section class="services" id="services">
+        <h2 class="heading">Our <span>Services</span></h2>   
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Frontend Web Development</h3>
+                <p>We are experts in creating modern and responsive web frontend solutions that deliver exceptional user experiences. Using cutting-edge technologies like HTML5, CSS3, and JavaScript, we build interactive and dynamic web interfaces that are visually appealing and user-friendly. We focus on creating seamless navigation, fast load times, and responsive design to ensure that your web application looks great and performs well across all devices and browsers.</p>
+                <a href="#" class="btn">Read More</a>
+            </div> 
+            
+            <div class="services-box">
+                <i class='bx bx-edit'></i>
+                <h3>Content Writing</h3>
+                <p>We understand the power of compelling and engaging content in today's digital world. Our experienced content writers create high-quality, SEO-friendly content that captivates your target audience and helps you achieve your marketing and communication goals. From website content to blog posts, articles, social media content, and more, we provide customized content writing services that are tailored to your brand voice and messaging.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact<span>Me!</span></h2> 
+        <form action="#">
+            <div class="input-box">
+                <input type="text" id="name" placeholder="Full Name">
+                <input type="email" id="email" placeholder="Email Address">  
+            </div>
+            <div class="input-box">
+                <input type="number" id="number" placeholder="Mobile Number">
+                <input type="text" id="subject" placeholder="Email Subject">  
+            </div>
+            <textarea name="" id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn" onclick="sendMail()">
+        </form>
+    </section>
+
+    <!-- footer design section -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Rizwan Abdullah | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- typed js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="index.js"></script>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</body>
+</html>
